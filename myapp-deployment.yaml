@@ -13,6 +13,7 @@ spec:
         app: myapp
     spec:
       containers:
-        - name: registry.cn-zhangjiakou.aliyuncs.com/cloud-proj/cloud-proj-yaml:1.0.0
+        - image: registry.cn-shanghai.aliyuncs.com/public-namespace/myapp:v1
+          name: myapp
           ports:
             - containerPort: 8080
